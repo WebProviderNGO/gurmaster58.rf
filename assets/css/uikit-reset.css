@@ -1,0 +1,178 @@
+.uk-text-primary,
+.uk-light .uk-text-primary {
+    color: var(--PrimaryColor) !important;
+}
+
+.uk-text-secondary,
+.uk-light .uk-text-secondary {
+    color: var(--SecondaryColor) !important;
+}
+
+.uk-navbar-nav>li>a {
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.uk-light .uk-navbar-nav>li>a {
+    color: white;
+}
+
+.uk-light .uk-navbar-nav>li:hover>a {
+    color: var(--PrimaryColor);
+}
+
+.uk-navbar-dropdown {
+    padding: 0;
+    background: var(--SecondaryColorBG);
+    color: white;
+    border: 3px solid black;
+}
+
+.uk-navbar-dropdown-nav>li>a {
+    padding: 15px 20px;
+}
+
+.uk-navbar-dropdown-nav>li>a,
+.uk-navbar-dropdown-nav>li>a:hover {
+    color: white;
+}
+
+.uk-navbar-dropdown-nav>li>a:hover {
+    background-color: var(--PrimaryColor);
+}
+
+.uk-button {
+    text-transform: none;
+    border-radius: 250px;
+    font-weight: 700;
+}
+
+.uk-light .uk-button-primary {
+    background-color: var(--PrimaryColor);
+    color: white;
+    border: 2px solid #1e4bda;
+    box-shadow: 0 0 0 transparent, 0px 0px 50px 5px rgba(30, 75, 218, 0.4);
+}
+
+.uk-light .uk-button-primary:hover {
+    background: repeating-linear-gradient(to bottom right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%) #1e4bda;
+    color: white;
+}
+
+.uk-background-primary {
+    background-color: var(--PrimaryColorBG);
+}
+
+.uk-light .uk-close {
+    color: white;
+}
+
+.uk-light .uk-close:hover {
+    color: var(--PrimaryColor);
+}
+
+[class*="uk-modal-close-"] {
+    background-color: var(--PrimaryColorBG);
+    top: -15px;
+    right: -15px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.uk-light .uk-input,
+.uk-light .uk-textarea {
+    background: 0 0;
+    border-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, .2);
+    padding-left: 2.5px !important;
+}
+
+.uk-light .uk-input:focus,
+.uk-light .uk-textarea:focus {
+    border-color: transparent;
+}
+
+.uk-light .uk-input::placeholder,
+.uk-light .uk-textarea::placeholder {
+    color: rgba(255, 255, 255, .2);
+}
+
+.uk-modal-title {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+.uk-overlay-primary {
+    background: rgba(5, 11, 33, 0.8);
+}
+
+.uk-dotnav>.uk-active>* {
+    background-color: var(--PrimaryColor);
+}
+
+.uk-dotnav>*>* {
+    background-color: rgba(102, 102, 102, .6);
+    border: none;
+}
+
+.uk-dotnav>*> :hover {
+    background-color: rgba(102, 102, 102, .9);
+}
+
+.uk-light .uk-link-reset {
+    color: white !important;
+}
+
+.uk-heading-line> ::after,
+.uk-heading-line> ::before {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.uk-totop {
+    padding: 20px 15px;
+    border: 2px solid #1e4bda;
+    background-color: var(--PrimaryColor);
+    border-radius: 250px;
+    color: white !important;
+}
+
+.uk-light .uk-navbar-toggle {
+    min-height: 50px;
+    padding: 0 20px;
+    color: white;
+    background-color: var(--PrimaryColor);
+}
+
+.uk-offcanvas-close {
+    top: 0;
+    right: 0;
+    min-height: 50px;
+    padding: 0 20px;
+    background-color: var(--PrimaryColor);
+  }
+
+  .uk-offcanvas-bar .uk-close {
+    color: white;
+  }
+
+  .uk-comment-primary {
+    background-color: var(--SecondaryColor);
+  }
+
+  .uk-comment-meta {
+    color: var(--PrimaryColorBG);
+  }
+
+  /* .uk-dark,
+  .uk-dark h4 {
+      color: rgba(0, 0, 0, 0.5);
+  } */
+
+  .uk-light .uk-description-list > dt {
+    color: white;
+    font-weight: 900;
+  }

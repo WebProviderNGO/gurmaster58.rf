@@ -1,0 +1,50 @@
+@media (min-width:300px) {
+    .uk-heading-small {
+        font-size: 2rem;
+    }
+
+    .SlideshowHome .uk-position-bottom {
+        bottom: 50px;
+    }
+
+    .SlideshowHPage .uk-position-bottom {
+        bottom: 25px;
+    }
+}
+
+@media (min-width:640px) {
+    .uk-heading-small {
+        font-size: 2.6rem;
+    }
+
+    .SlideshowHome .uk-position-bottom {
+        bottom: 125px;
+    }
+}
+
+@media (min-width:960px) {
+    .uk-heading-small {
+        font-size: 3.25rem;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .SlideshowHome .uk-position-bottom {
+        bottom: 200px;
+    }
+
+    .SlideshowHPage .uk-position-bottom {
+        bottom: 50px;
+    }
+
+    .OtziviComment {
+        padding: 0 70px;
+    }
+}
+
+@media (min-width:1600px) {
+    .SlideshowHome .uk-position-bottom {
+        bottom: 250px;
+    }
+}
